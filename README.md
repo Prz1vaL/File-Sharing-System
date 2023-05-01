@@ -25,7 +25,7 @@ file type, including text and image files.
 <code>git clone https://github.com/yourusername/APM30-File-Transfer-System.git</code>
 
 <li><strong>Compile the Java files: </strong></li>
-<code>javac org/apm30/client/Client.java org/apm30/server/Server.java org/apm30 </code>
+<code>javac org/apm30/client/Client.java org/apm30/server/Server.java org/apm30/server/MyFile.java </code>
 </ol>
 
 ## Usage:
