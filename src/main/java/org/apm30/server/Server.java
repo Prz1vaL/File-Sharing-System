@@ -185,7 +185,7 @@ public class Server {
         jYes.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                File fileToDownload = new File(fileName);
+                File fileToDownload = new File("src/main/resources/downloads/" + fileName);
                 try {
                     FileOutputStream fos = new FileOutputStream(fileToDownload);
                     fos.write(fileData);

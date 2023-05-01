@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d42232ba-7a9d-4349-8c60-9fbbd0343dab" name="Changes" comment="client code with socket connection and Java UI for client side.">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/apm30/server/MyFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/apm30/server/Server.java" afterDir="false" />
+    <list default="true" id="d42232ba-7a9d-4349-8c60-9fbbd0343dab" name="Changes" comment="Server side implemented and file can now be downloaded after the client sends it to the server.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/apm30/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apm30/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/apm30/client/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apm30/client/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/apm30/server/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apm30/server/Server.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +22,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2PCzxaLRDQMLn8lWxSWYFmIxbs8" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -97,7 +95,7 @@
       <updated>1682976099024</updated>
       <workItem from="1682976100131" duration="1115000" />
       <workItem from="1682977224707" duration="407000" />
-      <workItem from="1682977662833" duration="2432000" />
+      <workItem from="1682977662833" duration="3729000" />
     </task>
     <task id="LOCAL-00001" summary="client code with socket connection and Java UI for client side.">
       <created>1682977698283</created>
@@ -106,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682977698283</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Server side implemented and file can now be downloaded after the client sends it to the server.">
+      <created>1682980185510</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1682980185510</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,6 +119,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="client code with socket connection and Java UI for client side." />
-    <option name="LAST_COMMIT_MESSAGE" value="client code with socket connection and Java UI for client side." />
+    <MESSAGE value="Server side implemented and file can now be downloaded after the client sends it to the server." />
+    <option name="LAST_COMMIT_MESSAGE" value="Server side implemented and file can now be downloaded after the client sends it to the server." />
   </component>
 </project>
