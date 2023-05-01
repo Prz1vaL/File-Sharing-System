@@ -44,12 +44,12 @@ file type, including text and image files.
 ## Contributions:
 
 <ol>
-<li>Clone the repository from the school GitHub</li>
+<li>Clone the repository from GitHub</li>
 <li>Create a new branch for your feature or bug fix.</li>
 <li>Write unit tests for your code.</li>
 <li>Implement your feature or bug fix.</li>
 <li>Ensure all tests pass.</li>
-<li>Commit your changes and push to your branch on the GitHub</li>
+<li>Commit your changes and push to your branch on GitHub</li>
 <li>Submit a merge request to merge your changes into the main branch.</li>
 </ol>
 
