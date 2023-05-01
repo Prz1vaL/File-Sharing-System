@@ -5,11 +5,14 @@ import javax.swing.border.EmptyBorder;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.io.*;
+import java.io.DataOutputStream;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.IOException;
 import java.net.Socket;
-import java.net.UnknownHostException;
 
 public class Client {
+
 
     public static void main(String[] args ) {
 
@@ -24,7 +27,7 @@ public class Client {
         jFrame.setLayout(new BoxLayout(jFrame.getContentPane(), BoxLayout.Y_AXIS));
         jFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-        JLabel jLabel = new JLabel("File Sender");
+        JLabel jLabel = new JLabel("MyFile Sender");
         jLabel.setFont(new Font("Arial", Font.BOLD, 20));
         jLabel.setBorder(new EmptyBorder(20, 0, 20, 0));
         jLabel.setAlignmentX(Component.CENTER_ALIGNMENT);
@@ -37,11 +40,11 @@ public class Client {
         JPanel jpButton = new JPanel();
         jpButton.setBorder(new EmptyBorder(70,0,10,0));
 
-        JButton jButtonChoose = new JButton("Choose File");
+        JButton jButtonChoose = new JButton("Choose MyFile");
         jButtonChoose.setPreferredSize(new Dimension(150, 75));
         jButtonChoose.setFont(new Font("Arial", Font.BOLD, 15));
 
-        JButton jButtonSend = new JButton("Send File");
+        JButton jButtonSend = new JButton("Send MyFile");
         jButtonSend.setPreferredSize(new Dimension(150, 75));
         jButtonSend.setFont(new Font("Arial", Font.BOLD, 15));
 
@@ -86,15 +89,19 @@ public class Client {
                     }
 
                 } else {
-                     jFileName.setText("No File Selected, Please select a file and try again.");
+                    jFileName.setText("No MyFile Selected, Please select a file and try again.");
                 }
-              }
+           }
        });
 
-       jFrame.add(jLabel);
-            jFrame.add(jFileName);
-            jFrame.add(jpButton);
-            jFrame.setVisible(true);
+        jFrame.add(jLabel);
+        jFrame.add(jFileName);
+        jFrame.add(jpButton);
+        jFrame.setVisible(true);
 
+    }
+
+    public void start() {
+        main(null);
     }
 }
