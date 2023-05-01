@@ -35,7 +35,16 @@ The application is written in Java and uses Java Swing for the client and server
 </ol>
 
 ## Contributions:
+<ol>
+<li>Clone the repository from the school GitHub</li>
+<li>Create a new branch for your feature or bug fix.</li>
+<li>Write unit tests for your code.</li>
+<li>Implement your feature or bug fix.</li>
+<li>Ensure all tests pass.</li>
+<li>Commit your changes and push to your branch on the GitHub</li>
+<li>Submit a merge request to merge your changes into the main branch.</li>
+</ol>
 
 
 ## License: 
-
+This project is licensed under the <code> MIT License. </code>See the <code>LICENSE</code> file for more information.
