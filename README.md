@@ -1,11 +1,16 @@
 # File Sharing System
 
 ## Description:
- File Transfer System is a simple <strong> client-server application </strong> that allows users to transfer files from a client to a server. The server receives the files and displays a list of received files. Users can then download the received files from the server.
 
-The application is written in Java and uses Java Swing for the client and server UIs. It supports the transfer of any file type, including text and image files.
+File Transfer System is a simple <strong> client-server application </strong> that allows users to transfer files from a
+client to a server. The server receives the files and displays a list of received files. Users can then download the
+received files from the server.
+
+The application is written in Java and uses Java Swing for the client and server UIs. It supports the transfer of any
+file type, including text and image files.
 
 ## Features:
+
 <ol>
 <li>Simple client-server file transfer</li>
 <li>Server-side file list display</li>
@@ -14,6 +19,7 @@ The application is written in Java and uses Java Swing for the client and server
 </ol>
 
 ## Installation:
+
 <ol>
 <li> <strong>Clone the repository:</strong></li>
 <code>git clone https://github.com/yourusername/APM30-File-Transfer-System.git</code>
@@ -23,6 +29,7 @@ The application is written in Java and uses Java Swing for the client and server
 </ol>
 
 ## Usage:
+
 <ol>
 <li><strong> Start the server:</strong></li>
 <code>java org.apm30.server.Server</code>
@@ -35,6 +42,7 @@ The application is written in Java and uses Java Swing for the client and server
 </ol>
 
 ## Contributions:
+
 <ol>
 <li>Clone the repository from the school GitHub</li>
 <li>Create a new branch for your feature or bug fix.</li>
@@ -45,6 +53,6 @@ The application is written in Java and uses Java Swing for the client and server
 <li>Submit a merge request to merge your changes into the main branch.</li>
 </ol>
 
+## License:
 
-## License: 
 This project is licensed under the <code> MIT License. </code>See the <code>LICENSE</code> file for more information.

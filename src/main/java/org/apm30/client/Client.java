@@ -14,12 +14,11 @@ import java.net.Socket;
 public class Client {
 
 
-    public static void main(String[] args ) {
+    public static void main(String[] args) {
 
         final File[] fileToSend = new File[1];
 
         // GUI using Java Swing
-
 
 
         JFrame jFrame = new JFrame("APM30 Client Side");
@@ -38,7 +37,7 @@ public class Client {
         jFileName.setAlignmentX(Component.CENTER_ALIGNMENT);
 
         JPanel jpButton = new JPanel();
-        jpButton.setBorder(new EmptyBorder(70,0,10,0));
+        jpButton.setBorder(new EmptyBorder(70, 0, 10, 0));
 
         JButton jButtonChoose = new JButton("Choose MyFile");
         jButtonChoose.setPreferredSize(new Dimension(150, 75));
@@ -51,21 +50,21 @@ public class Client {
         jpButton.add(jButtonChoose);
         jpButton.add(jButtonSend);
 
-       jButtonChoose.addActionListener(new ActionListener() {
-           @Override
-           public void actionPerformed(ActionEvent e) {
-            JFileChooser jFileChooser = new JFileChooser();
-            jFileChooser.setDialogTitle("Choose a file to send");
-            if (jFileChooser.showOpenDialog(null) == JFileChooser.APPROVE_OPTION) {
-                fileToSend[0] = jFileChooser.getSelectedFile();
-              jFileName.setText("The file being sent to the server is: " + fileToSend[0].getName());
+        jButtonChoose.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                JFileChooser jFileChooser = new JFileChooser();
+                jFileChooser.setDialogTitle("Choose a file to send");
+                if (jFileChooser.showOpenDialog(null) == JFileChooser.APPROVE_OPTION) {
+                    fileToSend[0] = jFileChooser.getSelectedFile();
+                    jFileName.setText("The file being sent to the server is: " + fileToSend[0].getName());
+                }
             }
-           }
-       });
+        });
 
-       jButtonSend.addActionListener(new ActionListener() {
-           @Override
-              public void actionPerformed(ActionEvent e) {
+        jButtonSend.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
                 if (fileToSend[0] != null) {
                     try {
                         String fileName = fileToSend[0].getName();
@@ -91,8 +90,8 @@ public class Client {
                 } else {
                     jFileName.setText("No MyFile Selected, Please select a file and try again.");
                 }
-           }
-       });
+            }
+        });
 
         jFrame.add(jLabel);
         jFrame.add(jFileName);
